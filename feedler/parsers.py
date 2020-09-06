@@ -4,8 +4,8 @@ from typing import Union, Dict
 import requests
 from defusedxml.ElementTree import parse
 
-from feedler.constants import FeedTypes
-from feedler.utils import convert_rss_feed_to_dict, convert_rss_feed_to_json
+from .constants import FeedTypes
+from .utils import convert_rss_feed_to_dict, convert_rss_feed_to_json
 
 
 def _parser(file: str, type=FeedTypes.rss, format=None) -> Union[str, Dict]:

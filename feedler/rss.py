@@ -5,7 +5,7 @@ from datetime import datetime
 from typing import Optional, List, Union
 from xml.etree.ElementTree import ElementTree, Element
 
-from feedler.exceptions import InvalidFeedError
+from .exceptions import InvalidFeedError
 
 # TODO: parse element attrib and auto cast
 

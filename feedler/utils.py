@@ -4,8 +4,8 @@ from typing import Dict
 
 from xml.etree.ElementTree import ElementTree
 
-from feedler.specs.rss import RSSRoot
-from feedler.constants import RSS_DATE_FORMAT
+from .rss import RSSRoot
+from .constants import RSS_DATE_FORMAT
 
 
 def cast_string_to_datetime(date: str) -> datetime:
