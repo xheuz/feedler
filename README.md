@@ -30,7 +30,7 @@ rss_json = rss_parser("url or file_path", format="json")
 First you need to clone this repo
 
 ```
-git clone <repo>
+git clone git@github.com:xheuz/feedler.git
 ```
 
 Then you need to add a virtualenv
