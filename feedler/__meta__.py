@@ -1,6 +1,6 @@
 __title__ = "feedler"
 __description__ = "A dead simple parser"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "Victor Natschke"
 __author_email__ = "vnatschke@gmail.com"
 __license__ = "MIT"
